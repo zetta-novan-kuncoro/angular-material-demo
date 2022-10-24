@@ -1,0 +1,25 @@
+mat-sidenav-container {
+  min-height: 100vh;
+}
+
+mat-sidenav {
+  min-width: 360px;
+  width: 25vh;
+  max-width: 480px;
+}
+
+mat-toolbar {
+  button:first-child:has(mat-icon) {
+    margin-right: 1rem;
+  }
+
+  mat-icon + a {
+    margin-left: .5rem;
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+main {
+  padding: 1rem;
+}

@@ -1,0 +1,24 @@
+<mat-sidenav-container>
+  <mat-sidenav [(opened)]="showSidenav" mode="side">
+    <mat-nav-list>
+      <mat-list-item *ngFor="let link of links" [routerLink]="link.href" (click)="selectedLink = link">
+        <mat-icon mat-list-icon *ngIf="link.matIcon" [fontIcon]="link.matIcon"></mat-icon>
+        <a matLine>{{ link.label }}</a>
+      </mat-list-item>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar>
+      <button mat-icon-button >
+        <mat-icon (click)="showSidenav = !showSidenav">menu</mat-icon>
+      </button>
+      <ng-container matLine *ngIf="selectedLink">
+        <mat-icon>{{ selectedLink.matIcon }}</mat-icon>
+        <a matLine [routerLink]="selectedLink.href">{{ selectedLink.label }}</a>
+      </ng-container>
+    </mat-toolbar>
+    <main>
+      <router-outlet></router-outlet>
+    </main>
+  </mat-sidenav-content>
+</mat-sidenav-container>
