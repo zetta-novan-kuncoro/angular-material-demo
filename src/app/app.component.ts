@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -25,5 +26,9 @@ export class AppComponent {
       matIcon: 'help',
     },
   ];
-  selectedLink: Link|null = null
+  selectedLink: Link|null
+
+  constructor(private _route: ActivatedRoute) {
+    this.selectedLink = this.links.find(link =>  link.href === location.pathname) || null
+  }
 }

@@ -13,7 +13,9 @@ export class MovieService {
   getMovies(): Observable<Movie[]> {
     return this._http.get<Movie[]>('/assets/dummy-data/movies.json', {
       headers: new HttpHeaders().set('Content-Type', 'application/json')
-    })
+    }).pipe(map(movies => {
+      return movies || []
+    }))
   }
 
   getMovie(id: string|null): Observable<Movie|null> {

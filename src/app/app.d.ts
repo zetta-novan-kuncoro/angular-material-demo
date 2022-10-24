@@ -19,4 +19,5 @@ type Actor = {
   last_name: string
   first_name: string
   birthday: string
+  img_src: string
 }

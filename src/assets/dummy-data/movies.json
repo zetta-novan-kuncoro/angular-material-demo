@@ -1,6 +1,6 @@
 [
   {
-    "id": "1",
+    "id": "4J8ZHI4XXY",
     "title": "Cyberpunk: Edgerunners",
     "release_date": "20220913T000000Z",
     "img_src": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
@@ -28,30 +28,58 @@
     ]
   },
   {
-    "id": "2",
-    "title": "Cyberpunk: Edgerunners",
-    "release_date": "20220913T000000Z",
-    "img_src": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
-    "producer": "CD Projekt Red",
-    "genres": ["Action", "Sci-Fi"],
+    "id": "OXFNN20B67",
+    "title": "Black Adam",
+    "release_date": "20221021T000000Z",
+    "img_src": "https://www.themoviedb.org/t/p/w300_and_h450_bestv2/3zXceNTtyj5FLjwQXuPvLYK5YYL.jpg",
+    "producer": "Beau Flynn",
+    "genres": ["Action", "Adventure", "Fantasy"],
     "actors": [
       {
-        "id": "VZ0BR",
-        "last_name": "Yuuki",
-        "first_name": "Aoi",
-        "birthday": "19920327T000000Z"
+        "id": "ZI5AQ",
+        "last_name": "Dwayne",
+        "first_name": "Johnson",
+        "birthday": "19720502T000000Z"
       },
       {
-        "id": "A72PE",
-        "last_name": "KENN",
-        "first_name": "",
-        "birthday": "19920327T000000Z"
+        "id": "07RUF",
+        "last_name": "Aldis",
+        "first_name": "Hodge",
+        "birthday": "19860920T000000Z"
       },
       {
-        "id": "MUJTY",
-        "last_name": "Kurosawa",
-        "first_name": "Tomoyo",
-        "birthday": "19920327T000000Z"
+        "id": "SOXP4",
+        "last_name": "Pierce",
+        "first_name": "Borsnan",
+        "birthday": "19530516T000000Z"
+      }
+    ]
+  },
+  {
+    "id": "NKHIHZKWXE",
+    "title": "Shin Ultraman",
+    "release_date": "20220513T000000Z",
+    "img_src": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/w6E7MiAdPh0qA9ZqGKWmD4X1GUH.jpg",
+    "producer": "Hideaki Anno",
+    "genres": ["Drama", "Action", "Sci-Fi"],
+    "actors": [
+      {
+        "id": "U9TGU",
+        "last_name": "Takumi",
+        "first_name": "Saito",
+        "birthday": "19810822T000000Z"
+      },
+      {
+        "id": "91JJ4",
+        "last_name": "Nagasawa",
+        "first_name": "Masami",
+        "birthday": "19870603T000000Z"
+      },
+      {
+        "id": "BRPEA",
+        "last_name": "Arioka",
+        "first_name": "Daiki",
+        "birthday": "19910415T000000Z"
       }
     ]
   }

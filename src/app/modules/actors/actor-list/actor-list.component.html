@@ -1,1 +1,9 @@
-<p>actor-list works!</p>
+<ul>
+  <li *ngFor="let actor of (actors$ | async)">
+    <mat-card>
+      <img mat-card-image [src]="actor.img_src" width="300px" height="450px" />
+      <p>{{ actor.full_name }}</p>
+      <a mat-button [routerLink]="[actor.id]">View Detail</a>
+    </mat-card>
+  </li>
+</ul>

@@ -1,1 +1,6 @@
-<p>actor-detail works!</p>
+<article *ngIf="actor$ | async as actor">
+  <aside>
+    <img [src]="actor.img_src" width="240px" height="360px" />
+  </aside>
+  <h1>{{ actor.full_name }}</h1>
+</article>
