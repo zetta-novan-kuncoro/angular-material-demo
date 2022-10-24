@@ -1,1 +1,7 @@
-<p>movie-detail works!</p>
+<article *ngIf="(movie$ | async) as movie">
+  <aside>
+    <img [src]="movie.img_src" />
+  </aside>
+  <h1>{{ movie.title }} ({{ movie.release_date | date:'y' }})</h1>
+  <p>Produced by: {{ movie.producer }} &middot; Release date: {{ movie.release_date | date }} &middot; Genre: {{ movie.genres.join(', ') }} </p>
+</article>

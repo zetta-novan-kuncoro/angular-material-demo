@@ -1,1 +1,9 @@
-<p>movie-list works!</p>
+<ul>
+  <li *ngFor="let movie of (movies$ | async)">
+    <mat-card>
+      <img mat-card-image [src]="movie.img_src" width="240px" height="360px" />
+      <p>{{ movie.title }}</p>
+      <a mat-button [routerLink]="[movie.id]">View Detail</a>
+    </mat-card>
+  </li>
+</ul>

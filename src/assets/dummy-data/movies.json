@@ -1,0 +1,58 @@
+[
+  {
+    "id": "1",
+    "title": "Cyberpunk: Edgerunners",
+    "release_date": "20220913T000000Z",
+    "img_src": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+    "producer": "CD Projekt Red",
+    "genres": ["Action", "Sci-Fi"],
+    "actors": [
+      {
+        "id": "VZ0BR",
+        "last_name": "Yuuki",
+        "first_name": "Aoi",
+        "birthday": "19920327T000000Z"
+      },
+      {
+        "id": "A72PE",
+        "last_name": "KENN",
+        "first_name": "",
+        "birthday": "19920327T000000Z"
+      },
+      {
+        "id": "MUJTY",
+        "last_name": "Kurosawa",
+        "first_name": "Tomoyo",
+        "birthday": "19920327T000000Z"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "Cyberpunk: Edgerunners",
+    "release_date": "20220913T000000Z",
+    "img_src": "https://cdn.myanimelist.net/images/anime/1818/126435.jpg",
+    "producer": "CD Projekt Red",
+    "genres": ["Action", "Sci-Fi"],
+    "actors": [
+      {
+        "id": "VZ0BR",
+        "last_name": "Yuuki",
+        "first_name": "Aoi",
+        "birthday": "19920327T000000Z"
+      },
+      {
+        "id": "A72PE",
+        "last_name": "KENN",
+        "first_name": "",
+        "birthday": "19920327T000000Z"
+      },
+      {
+        "id": "MUJTY",
+        "last_name": "Kurosawa",
+        "first_name": "Tomoyo",
+        "birthday": "19920327T000000Z"
+      }
+    ]
+  }
+]
