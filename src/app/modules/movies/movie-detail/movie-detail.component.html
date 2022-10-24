@@ -1,7 +1,18 @@
-<article *ngIf="(movie$ | async) as movie">
-  <aside>
-    <img [src]="movie.img_src" />
-  </aside>
-  <h1>{{ movie.title }} ({{ movie.release_date | date:'y' }})</h1>
-  <p>Produced by: {{ movie.producer }} &middot; Release date: {{ movie.release_date | date }} &middot; Genre: {{ movie.genres.join(', ') }} </p>
-</article>
+<mat-tab-group>
+  <mat-tab label="Detail" title="Detail">
+    <article *ngIf="(movie$ | async) as movie">
+      <aside>
+        <img [src]="movie.img_src" />
+      </aside>
+      <h1>{{ movie.title }} ({{ movie.release_date | date:'y' }})</h1>
+      <p>Produced by: {{ movie.producer }} &middot; Release date: {{ movie.release_date | date }} &middot; Genre: {{ movie.genres.join(', ') }} </p>
+    </article>
+  </mat-tab>
+  <mat-tab label="Actors" title="Actors">
+    <ul>
+      <li *ngFor="let actor of (movie$ | async)?.actors">
+        {{ actor.full_name }}
+      </li>
+    </ul>
+  </mat-tab>
+</mat-tab-group>
